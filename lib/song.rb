@@ -16,10 +16,4 @@ class Song
   def self.all
     @@all
   end
-
-  def songs
-    @@all.each {|x| x}
-  end
-
-
   end
